@@ -19,18 +19,22 @@ This project is a friendly and humorous chatbot application, developed using Goo
   ```bash
   python -m venv venv
   source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
 
 3. Install required packages:
-
-  ```bash
+  ```
   pip install -r requirements.txt
-
+```
 4. Create a .env file and add your API key:
-  GEMINI_API_KEY=your_api_key_here
+ ```
+   GEMINI_API_KEY=your_api_key_here
+```
 
 ## Usage
 Run chat.py to start the chatbot interface:
+```
 python chat.py
+```
 
 ## File Structure
 chat.py - Main chatbot script
